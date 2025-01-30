@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://hashnode-backend.hothead01th.workers.dev"

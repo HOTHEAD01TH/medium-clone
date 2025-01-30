@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "hashnode-backend",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify"

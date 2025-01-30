@@ -1,6 +1,6 @@
-# Medium Clone
+# Hashnode Clone
 
-This repository provides a fully functional clone of Medium, a popular online publishing platform. It's built using TypeScript for strong typing, Cloudflare for fast and secure hosting, Prisma for database management, Postgres for data persistence, React for the frontend, and Tailwind for styling.
+This repository provides a fully functional clone of Hashnode, a popular online publishing platform. It's built using TypeScript for strong typing, Cloudflare for fast and secure hosting, Prisma for database management, Postgres for data persistence, React for the frontend, and Tailwind for styling.
 
 ## Features
 
@@ -24,8 +24,8 @@ This repository provides a fully functional clone of Medium, a popular online pu
 To get a local copy of the code, clone it using git:
 
 ```
-git clone https://github.com/username/medium-clone.git
-cd medium-clone
+git clone https://github.com/username/Hashnode-clone.git
+cd Hashnode-clone
 ```
 
 Install dependencies:
