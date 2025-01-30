@@ -18,26 +18,43 @@ This repository provides a fully functional clone of Hashnode, a popular online 
 - Postgres
 - React
 - Tailwind
+- Hono
+- Zod
+- Axios
+- Wrangler
 
 ## Setup Instructions
 
-To get a local copy of the code, clone it using git:
-
+1. Clone the repository:
+```bash
+git clone https://github.com/hothead01th/hashnode-clone.git
+cd hashnode-clone
 ```
-git clone https://github.com/username/Hashnode-clone.git
-cd Hashnode-clone
-```
 
-Install dependencies:
-
-```
+2. Install dependencies:
+```bash
 npm install
 ```
+```bash
+npm run dev
+```
 
-#### Available Scripts
+3. Configure environment variables:
+- Copy `.env.example` to `.env`
+- Update database credentials and API keys
 
-| Script | Description |
-|--------|-------------|
-| npm start | Runs the app in development mode |
-| npm test | Launches the test runner |
-| npm run build | Builds for production |
+4. Set up the database:
+```bash
+npx prisma migrate dev
+npx prisma generate
+```
+
+5. Start development server:
+```bash
+npm run dev
+```
+
+6. Deploy to Cloudflare:
+```bash
+npm run deploy
+```
